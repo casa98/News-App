@@ -1,4 +1,4 @@
-package com.cagudeloa.newsapp
+package com.cagudeloa.newsapp.util
 
 class Constants {
     companion object {

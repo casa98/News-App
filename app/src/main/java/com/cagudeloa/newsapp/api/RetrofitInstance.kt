@@ -1,6 +1,6 @@
 package com.cagudeloa.newsapp.api
 
-import com.cagudeloa.newsapp.Constants.Companion.BASE_URL
+import com.cagudeloa.newsapp.util.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
