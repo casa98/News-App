@@ -1,4 +1,6 @@
-package com.cagudeloa.newsapp
+package com.cagudeloa.newsapp.models
+
+import com.cagudeloa.newsapp.models.Article
 
 data class NewsResponse(
     val articles: List<Article>,

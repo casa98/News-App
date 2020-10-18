@@ -1,4 +1,4 @@
-package com.cagudeloa.newsapp
+package com.cagudeloa.newsapp.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -14,7 +14,8 @@ data class Article(
     val content: String,
     val description: String,
     val publishedAt: String,
-    val source: Source,
+    // Room only handles primitives data types, so this will make us do an extra job
+    val source: Source,     // We'll create a type Converter to tell Room how to treat this class
     val title: String,
     val url: String,
     val urlToImage: String

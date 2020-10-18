@@ -1,4 +1,4 @@
-package com.cagudeloa.newsapp
+package com.cagudeloa.newsapp.models
 
 data class Source(
     val id: Any,

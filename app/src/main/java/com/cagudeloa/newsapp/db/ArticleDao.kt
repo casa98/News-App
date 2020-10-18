@@ -2,7 +2,7 @@ package com.cagudeloa.newsapp.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.cagudeloa.newsapp.Article
+import com.cagudeloa.newsapp.models.Article
 
 @Dao
 interface ArticleDao {
