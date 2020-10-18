@@ -1,7 +1,8 @@
-package com.cagudeloa.newsapp
+package com.cagudeloa.newsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cagudeloa.newsapp.R
 
 class NewsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
