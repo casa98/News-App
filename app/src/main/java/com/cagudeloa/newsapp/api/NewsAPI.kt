@@ -1,7 +1,7 @@
 package com.cagudeloa.newsapp.api
 
 import com.cagudeloa.newsapp.models.NewsResponse
-import com.cagudeloa.newsapp.api.ApiKey.Companion.API_kEY
+import com.cagudeloa.newsapp.api.apiKey.Companion.API_kEY
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
