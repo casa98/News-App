@@ -55,7 +55,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
     override fun onBindViewHolder(holder: ArticleViewHolder, position: Int) {
         val article = differ.currentList[position]
         holder.itemView.apply {
-            Picasso.get().load(article.url).fit().centerCrop()
+            Picasso.get().load(article.urlToImage).fit().centerCrop()
                 .error(R.drawable.ic_launcher_background).into(ivArticleImage)
             tvSource.text = article.source.name
             tvTitle.text = article.title
